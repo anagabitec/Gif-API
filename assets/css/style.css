@@ -1,0 +1,89 @@
+button,
+    div,
+    form,
+    input {
+      margin: 10px;
+      border: none;
+    }
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    background-color: black; 
+    margin: auto; 
+}
+
+
+.jumbotron {
+    background-color:rgb(0, 19, 60);
+    color:whitesmoke;
+}
+
+.gif-info-container {
+    display: inline-block;
+    width: 100%;
+}
+
+#add-sitcom {
+    background-color:rgb(0, 19, 60);
+    color: aliceblue;
+}
+
+.sitcom-btn {
+    background-color: rgb(0, 19, 60);
+    color: #fff;
+}
+
+.sitcom {
+    display: inline-block;
+}
+
+#abc {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#ratingDiv {
+    text-align: center;
+    font-size: 20px;
+    width: 200;
+    display: block;
+}
+
+.bigTitle {
+    display: inline;
+    text-align: center;
+}
+  
+#pic-hover {
+    /* position: relative; */
+    width: 30%;
+    /* height: 200px; */
+    top: 60px;
+    display: inline-block;
+  }
+  
+#gif-hover {
+    /* position: relative; */
+    width: 30%;
+    /* height: 200px; */
+    top: 60px;
+    display: inline-block;
+  }
+  
+#hover {
+    /* position: absolute; */
+    left: 60%;
+    margin-left: -165px;
+    top: 250px;
+    width: 90px;
+    height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-weight: bold;
+  }
+  
